@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <div class="button is-primary">Soy primary bitch</div>
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
