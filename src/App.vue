@@ -1,29 +1,73 @@
 <template>
-  <div id="app">
-    <div class="button is-primary">Soy primary bitch</div>
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <!-- Total Counter -->
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <h1 class="title">Hero title</h1>
+          <h2 class="subtitle">Hero subtitle</h2>
+        </div>
+      </div>
+    </section>
+
+<!-- Otros conteos -->
+<section class="hero">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <div class="columns is-vcentered">
+        <div class="column">www</div>
+        <div class="column">eee</div>
+        <div class="column">ddd</div>
+        <div class="column">fff</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- sintomas -->
+
+<!-- Otros conteos -->
+<section class="hero">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <div class="columns is-vcentered">
+        <div class="column">www</div>
+        <div class="column">eee</div>
+        <div class="column">ddd</div>
+        <div class="column">fff</div>
+        <div class="column">fff</div>
+        <div class="column">fff</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Como prevenir -->
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <div class="columns is-vcentered">
+        <div class="column">www</div>
+        <div class="column">eee</div>
+        <div class="column">ddd</div>
+        <div class="column">fff</div>
+        <div class="column">fff</div>
+        <div class="column">fff</div>
+      </div>
+    </div>
+  </div>
+</section>
+
   </div>
 </template>
 
 <script>
-
-
 export default {
-  name: 'App',
-  components: {
-
-  }
-}
+  name: "App",
+  components: {}
+};
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
